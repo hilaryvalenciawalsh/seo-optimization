@@ -4,7 +4,7 @@ This project includes edits made to the HTML, and CSS codes that have been revis
 An example of changes that were made were semantic elements, tags, removing unnecessary items, and adding claryfying text. 
 Class and ID's were also changed to better fit the HTML and CSS codes. 
 
-LINK: file:///Users/hilaryvalencia-walsh/code/console-demo/seo-optimization/index.html
+
 
 
 
@@ -18,3 +18,7 @@ A few examples of change that have been completed:
 <div class="content"> to <div class="left-side-padding">
 -->
  
+LINK: file:///Users/hilaryvalencia-walsh/code/console-demo/seo-optimization/index.html
+
+
+
