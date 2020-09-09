@@ -1,65 +1,96 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;}
+    margin: 0;
+}
 
 body {
-    background-color: #d9dcd6;}
+    background-color: #d9dcd6;
+}
 
+/* Instead of having headers as classes they have been changed to a semantic element. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;}
+    color: #ffffff;
+}
 
 h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;}
+    color: #d9dcd6;
+}
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;}
+    font-size: 20px;
+}
 
 ul {
-    list-style-type: none;}
+    list-style-type: none;
+}
 
 li {
     display: inline-block;
-    margin-left: 25px;}
+    margin-left: 25px;
+}
 
 a {
     color: #ffffff;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 p {
-    font-size: 16px;}
+    font-size: 16px;
+}
 
+/* Class was changed from "hero" to "main-ad-picture" for easier identification. */
 .main-ad-picture {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;}
+    background-position: center;
+}
 
 .left-side-padding {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;}
+    margin-left: 20px;
+}
 
 .float-left {
     float: left;
-    margin-right: 25px;}
+    margin-right: 25px;
+}
 
 .float-right {
     float: right;
-    margin-left: 25px;}
+    margin-left: 25px;
+}
 
-.benefits {
+/* This CSS is for the sidebar and named "aside" with classes to further design. Images now have clear class names and are compacted. Here is an example of what was origninally was here and now is changed:
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+ */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -67,40 +98,83 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;}
+    background-color: #2589bd;
+}
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 51.5px;
-    color: #ffffff; }
+    color: #ffffff;
+}
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;}  
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 h3 {
     margin-bottom: 10px;
-    text-align: center;}
+    text-align: center;
+}
 
-.descriptions {
+/* Original CSS had multiple divs, this was changed to sections. */
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;}
+    color: #ffffff;
+}
 
+/* Instead of having multiple tags of the same thing, they have been compressed into 2 semantic elements. An example of what was changed is: 
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+*/
 img {
-    max-height: 200px;}
+    max-height: 200px;
+}
 
 h2 {
     margin-bottom: 20px;
-    font-size: 36px;}
+    font-size: 36px;
+}
 
+/* Instead of having footers as classes they have been changed to a semantic element. */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;}
+    text-align: center;
+}
 
 footer h2 {
-    font-size: 20px;}
+    font-size: 20px;
+}
